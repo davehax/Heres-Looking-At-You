@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+    background: no-repeat center center url('background.jpg');
+    background-size: cover;
+
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.l00k {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Arima Madurai';
+    font-weight: 400;
+    background-color: #223;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
